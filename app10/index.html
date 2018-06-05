@@ -1,0 +1,1388 @@
+﻿ 
+
+<!DOCTYPE html> 
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>App10 DSAWPOO</title>
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<!--grupo CSS-->
+
+<link rel="stylesheet" href="css/app-tema10.css"/>
+
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+
+
+
+<!--grupo JavaScript-->
+
+<script src="js/jquery-1.11.2.min.js"></script>
+
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="js/acciones.js" type="text/javascript"></script>
+
+
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+
+
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+
+}
+
+function MM_preloadImages() { //v3.0
+
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+}
+
+
+
+function MM_findObj(n, d) { //v4.01
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+
+}
+
+
+
+function MM_swapImage() { //v3.0
+
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+}
+
+</script>
+
+</head> 
+<body onLoad="MM_preloadImages('imagenes/archivos/D1.jpg','imagenes/26.png','imagenes/MANUAL DE TECNICO.jpg')">
+<body onLoad="MM_preloadImages('imagenes/archivos/VisualBasic.jpg')">
+
+<body> 
+
+<div data-role="page" id="principal" data-theme="b">
+
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+
+      <h1>(DSAUPOO)DESARROLLA SOFTWARE DE APLICACION UTILIZANDO PROGRAMACON ORIENTADA A OBJETOS</h1>
+
+     </div>
+
+  
+
+      
+
+      <div>
+
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+
+       <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>Ciclo de vida de un sistema de informacion</h2>
+
+         <p></p>
+
+        </a>
+
+       </li>
+
+       <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>Analisis </h2>
+
+         <p></p>
+
+        </a>
+
+       </li>
+
+       <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>Diseño</h2>
+
+         <p></p>
+
+        </a>
+
+       </li>
+
+       <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>Introduccion a la programacion orientada a objetos</h2>
+
+         <p></p>
+
+        </a>
+
+       </li>
+
+       <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>Codificacion</h2>
+
+         <p></p>
+
+        </a>
+
+       </li>
+
+        <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>Manuales</h2>
+
+         <p></p>
+
+        </a>
+
+       </li>
+
+       <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>Manejo del software visual basic 2010</h2>
+
+         <p></p>
+
+        </a>
+
+       </li>
+
+        <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>Instrucciones basicas de SQL</h2>
+
+         <p> </p>
+
+        </a>
+
+       </li>
+       
+        <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>Datos del desarrollador</h2>
+
+         <p></p>
+
+        </a>
+
+       </li>
+
+       </ul>
+
+      </div>
+
+      
+
+
+
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+
+       <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+       <div>
+
+        <h4> Proyecto Final</h4>
+
+        <h4> Christian Ariel Peregrina Garcia</h4>
+
+       </div>
+
+      </div>
+
+     </div>
+
+     
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>Ciclo de vida de un sistema de informacion</h2>
+
+      </div>
+
+      <div data-role="content" align="center">
+
+       <div>
+
+       </div>
+
+      </div>
+
+      <div data-role="main" class="ui-content">
+
+      <div data-role="collapsible" data-content-theme="false">
+
+        <h1>Definicion y Proceso</h1>
+
+        <div>
+
+         <p><H2>DEFINICION:</H2>Es un sistema, automatizado o manual, que engloba a personas, máquinas y/o métodos organizados para recopilar, procesar, transmitir datos que representan información. Un sistema de información engloba la infraestructura, la organización, el personal y todos los componentes necesarios para la recopilación, procesamiento, almacenamiento, transmisión, visualización, diseminación y organización de la información.
+ <center><img src="imagenes/2.webp" width="60%" height="60%"></center></div>
+
+
+<H2>Planificación</H2>
+Realizar una serie de tareas previas que influirán decisivamente en la finalización con éxito del proyecto.
+ <center><img src="imagenes/4.cmap" width="60%" height="60%"></center>
+
+<H2>Análisis</H2>
+Averiguar qué es exactamente lo que tiene que hacer el sistema. La etapa de análisis en el ciclo de vida del software corresponde al proceso mediante el cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema.
+<center><img src="imagenes/5.gif" width="60%" height="60%"></center>
+<b>Si quiere ver un video de analisis da clic al link:</b> <a href="https://youtu.be/0ve3CHxuMK0" target="_self">https://youtu.be/0ve3CHxuMK0</a>
+    <div data-role="main" class="ui-content" align="center">
+
+ <div style="width:90%">
+
+ 
+ </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<H2>Diseño</H2>
+Se han de estudiar posibles alternativas de implementación para el sistema de información que hemos de construir y se ha de decidir la estructura general que tendrá el sistema (su diseño arquitectónico). El diseño de un sistema es complejo y el proceso de diseño ha de realizarse de forma iterativa.
+<center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','imagenes/D2.jpg',1)"><img src="imagenes/D1.jpg" width="60%" height="60%" id="Image1"></a></center>
+
+
+
+<H2>Implementación</H2>
+Seleccionar las herramientas adecuadas, un entorno de desarrollo que facilite nuestro trabajo y un lenguaje de programación apropiado para el tipo de sistema que vayamos a construir. La elección de estas herramientas dependerá en gran parte de las decisiones de diseño que hayamos tomado hasta el momento y del entorno en el que nuestro sistema deberá funcionar.
+     <center><img src="imagenes/IMPLE.jpg" width="60%" height="60%"></center>
+<H2>Pruebas</H2>
+Tiene como objetivo detectar los errores que se hayan podido cometer en las etapas anteriores del proyecto (y, eventualmente, corregirlos). La búsqueda de errores que se realiza en la etapa de pruebas puede adaptar distintas formas, en función del contexto y de la fase del proyecto.
+     <center><img src="imagenes/prueba.jpg" width="60%" height="60%"></center>
+<H2>Instalación o despliegue</H2>
+Debemos de planificar el entorno en el que el sistema debe funcionar, tanto hardware como software: equipos necesarios y su configuración física, redes de interconexión entre los equipos y de acceso a sistemas externos, sistemas operativos y bibliotecas.
+Estas etapas son un reflejo del proceso que se sigue a la hora de resolver cualquier tipo de problema.
+     <center><img src="imagenes/DES.jpg" width="60%" height="60%"></center>
+<H2>Uso y mantenimiento</H2>
+La etapa de mantenimiento consume típicamente del 40 al 80 por ciento de los recursos de una empresa de desarrollo de software. De hecho, con un 60% de media, es probablemente la etapa más importante del ciclo de vida del software.
+
+Eliminar los defectos que se detecten durante su vida útil, lo primero que a uno se le viene a la cabeza cuando piensa en el mantenimiento de cualquier cosa.
+Adaptarlo a nuevas necesidades cuando el sistema ha de funcionar sobre una nueva versión del sistema operativo o en un entorno hardware diferente.
+Añadirle nueva funcionalidad, cuando se proponen características deseables que supondrían una mejora del sistema ya existente.
+
+Delimitación del ámbito del proyecto
+Determinar los aspectos abarcados por el proyecto como fijar aquéllos aspectos que no se incluirán en el proyecto. Estos últimos han de indicarse explícitamente. Si es necesario, se puede especificar todo aquello que se posponga hasta una versión posterior del sistema.
+                            <center><img src="imagenes/sistema_computo.jpg" width="60%" height="60%"></center>
+<H2>Estudio de viabilidad</H2>
+Con recursos ilimitados (tiempo y dinero), casi cualquier proyecto se podría llevar a buen puerto. Por desgracia, en la vida real los recursos son más bien escasos, por lo que no todos los proyectos son viables.
+                <center><img src="imagenes/viabilidad.jpg" width="60%" height="60%"></center>
+<H2>Análisis de riesgos</H2>
+Siempre se produce algún contratiempo que eche por tierra la mejor de las planificaciones. Es algo inevitable con lo que hemos de vivir y para lo cual disponemos de una herramienta extremadamente útil: la gestión de riesgos, que tradicionalmente se descompone en evaluación de riesgos y control de riesgos.
+   <center><img src="imagenes/1.webp" width="60%" height="60%"></center>
+
+</p>
+
+          <br>
+          
+         
+  
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+        </div>
+        
+        
+        
+         <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/creacion.jpg" alt="CREACION" title="CREACION" id="wows1_0"/></li>
+		<li><img src="data1/images/de_un_programa.png" alt="DE UN PROGRAMA" title="DE UN PROGRAMA" id="wows1_1"/></li>
+		<li><img src="data1/images/desarrollado.jpg" alt="Desarrollado" title="Desarrollado" id="wows1_2"/></li>
+		<li><img src="data1/images/utilizando_objetos.jpg" alt="UTILIZANDO OBJETOS" title="UTILIZANDO OBJETOS" id="wows1_3"/></li>
+		<li><img src="data1/images/procesado.jpg" alt="Y PROCESADO" title="Y PROCESADO" id="wows1_4"/></li>
+		<li><img src="data1/images/formularios.jpg" alt="FORMULARIOS" title="FORMULARIOS" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/en.png" alt="css slider" title="en" id="wows1_6"/></a></li>
+		<li><img src="data1/images/visual_basic.png" alt="VISUAL BASIC" title="VISUAL BASIC" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="CREACION"><span><img src="data1/tooltips/creacion.jpg" alt="CREACION"/>1</span></a>
+		<a href="#" title="DE UN PROGRAMA"><span><img src="data1/tooltips/de_un_programa.png" alt="DE UN PROGRAMA"/>2</span></a>
+		<a href="#" title="Desarrollado"><span><img src="data1/tooltips/desarrollado.jpg" alt="Desarrollado"/>3</span></a>
+		<a href="#" title="UTILIZANDO OBJETOS"><span><img src="data1/tooltips/utilizando_objetos.jpg" alt="UTILIZANDO OBJETOS"/>4</span></a>
+		<a href="#" title="Y PROCESADO"><span><img src="data1/tooltips/procesado.jpg" alt="Y PROCESADO"/>5</span></a>
+		<a href="#" title="FORMULARIOS"><span><img src="data1/tooltips/formularios.jpg" alt="FORMULARIOS"/>6</span></a>
+		<a href="#" title="en"><span><img src="data1/tooltips/en.png" alt="en"/>7</span></a>
+		<a href="#" title="VISUAL BASIC"><span><img src="data1/tooltips/visual_basic.png" alt="VISUAL BASIC"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <div>
+
+       
+
+        <div data-role="main" class="ui-content" align="center">
+
+ <div style="width:90%">
+
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+
+   <li class="ui-first-child ui-last-child">
+
+    <a href="https://es.slideshare.net/Phillisdejesus/ciclo-de-vida-de-los-sistemas-de-informacion-26353969" data-role="button" id="beep">
+
+     <h2>Mas Informacion</h2>
+
+    </a>
+
+   </li>
+
+
+
+  </ul>
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+ </div>
+
+</div>
+
+
+
+       </div>
+
+      </div>
+
+       
+
+       
+
+      
+
+       
+      
+
+        
+
+      
+
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+       <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     </div>
+
+     
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>Analisis</h2>
+
+      </div>
+
+      <div data-role="content" align="center">
+
+       <div>
+      
+Averiguar qué es exactamente lo que tiene que hacer el sistema. La etapa de análisis en el ciclo de vida del software corresponde al proceso mediante el cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema.
+<center><img src="imagenes/5.gif" width="60%" height="60%"></center>Existen una gran cantidad de estudios de análisis, siendo en general caracterizados por formar en temas aislados o sesgados o estancos entre las diversiones dimensiones de un análisis . Tener una visión completa no se transmite habitualmente. Los resultados son sistemas con alto mantenimiento o expectativas de utilidad que son superadas por el uso diario.
+
+En este sentido el Programa  y su Análisis  de Software, es un programa aborda el modelado integral de software en sus fases de análisis , teniendo siempre presente que el software no es un producto estático, sino un producto que evoluciona desde su concepción y afecta a las organizaciones transversalmente de una u otra manera.
+
+<H2>Conceptos centrales del programa: análisis</H2>
+Un software es un bien al mismo tiempo que genera oportunidades atadas a una infraestructura y a un modelo de operación ‘algoritmizado’. En este sentido, el análisis integral aborda el análisis  como tarea que no son estacas ni como tareas que estudian temas de forma estanca. Se aborda la tarea de modelamiento apuntando en sus diversas dimensiones y no pierde vista que al final de cuentas, un software es un recurso vivo que debe generar utilidades y/o ahorros.</center>
+   <center><img src="imagenes/ANALISIS.jpg" width="60%" height="60%"></center>
+   
+<H2>ANÁLISIS ECONÓMICO Y TÉCNICO DE LOS SISTEMAS DE INFORMACIÓN</H2> 
+El Análisis Económico incluye lo que llamamos, el análisis de costos – beneficios, significa una valoración de la inversión económica comparado con los beneficios que se obtendrán en la     comercialización y utilidad del producto o sistema.En el Análisis Técnico, el Analista evalúa los principios técnicos del Sistema y al mismo tiempo recoge información adicional sobre el rendimiento, fiabilidad, características de mantenimiento y productividad.
+    <center><img src="imagenes/analisistec.jpg" width="60%" height="60%"></center>
+    
+   <h2> MODELADO DE LA ARQUITECTURA DEL SISTEMA DE INFORMACIÓN</h2> 
+    Cuando aquello que construiremos es un Software, nuestro modelo debe tomar una forma diferente, deben representar todas las funciones y subfunciones de un Sistema. LOS MODELOS SE CONCENTRAN EN LO QUE DEBE HACER EL SISTEMA NO EN CÓMO LO HACE. Estos modelos pueden incluir notación gráfica, información y comportamiento del Sistema.
+               <center><img src="imagenes/Arc.jpg" width="60%" height="60%"></center>
+         
+
+
+    
+      </div>
+      </div>
+      
+
+
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+       <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     </div>
+
+     
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>Diseño</h2>
+
+      </div>
+
+      <div data-role="main" class="ui-content">
+
+      <div data-role="collapsible" data-content-theme="false">
+
+        <h1> Definicion y Pasos para el diseño de un sistema de informacion</h1>
+
+        <div>
+
+         <br>
+
+        </div>
+
+        <div>
+<h2>DEFINICION DEL DISEÑO DE SISTEMAS DE INFORMACIÓN</h2> Se define el proceso de “aplicar” ciertas técnicas y principios con el propósito de “definir un dispositivo, un proceso o un Sistema”, con suficientes detalles como para permitir su interpretación y realización física.
+         <center><img src="imagenes/diseño.png" width="60%" height="60%"></center>
+<h1>ETAPAS DEL DISEÑO DE UN SISTEMA DE INFORMACIÓN ETAPAS</h1>
+ <h2>Etapa1:EL DISEÑO DE LOS DATOS</h2>
+ Trasforma el modelo de dominio de la información, creado durante el análisis, en las estructuras de datos necesarios para implementar el Software.
+<center><img src="imagenes/Datos.jpg" width="60%" height="60%"></center>
+<h2>Etapa2:EL DISEÑO ARQUITECTÓNICO</h2>
+Define la relación entre cada uno de los elementos estructurales del programa.
+<center><img src="imagenes/arquitectnico.jpg" width="60%" height="60%"></center>
+<h2>Etapa3:EL DISEÑO DE LA INTERFAZ</h2>
+Describe “como se comunica el Software consigo mismo”, con los sistemas que operan junto con el y con los operadores y usuarios que lo emplean.
+<center><img src="imagenes/interfaz.jpg" width="60%" height="60%"></center>
+<h2>Etapa4:EL DISEÑO DE PROCEDIMIENTOS </h2>
+Transforma elementos estructurales de la arquitectura del programa.
+<center><img src="imagenes/Procedientos.jpg" width="60%" height="60%"></center>
+<H2>IMPORTANCIA DEL DISEÑO DE UN SISTEMA DE INFORMACIÓN</H2>
+Se puede definir en una sola palabra Calidad, dentro del diseño es donde se fomenta la calidad del Proyecto. EL DISEÑO ES LA ÚNICA MANERA DE MATERIALIZAR CON PRECISIÓN LOS “REQUERIMIENTOS DEL CLIENTE”. Debe implementar todos los requisitos implícitos que desea el cliente. Debe ser una guía que puedan leer y entender los que construyan el código y los que prueban y mantienen el Software. Debe proporcionar una completa idea de lo que es el Software, enfocando los dominios de datos, funcional y comportamiento de la Implementación.
+<center><img src="imagenes/importancia.jpg" width="60%" height="60%"></center>
+
+
+
+
+        
+
+        
+        </div>
+
+        <div>
+
+        </div>
+
+        <div data-role="main" class="ui-content" align="center">
+
+ <div style="width:90%">
+
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+
+   <li class="ui-first-child ui-last-child">
+
+    <a href="https://es.slideshare.net/yesyduc10/diseo-fsico-y-lgico-de-los-sistemas-de-informacion" data-role="button" id="beep">
+
+     <h2>Mas informacion</h2>
+
+    </a>
+
+   </li>
+
+
+
+  </ul>
+
+ </div>
+
+</div>
+
+       </div>
+
+      </div>
+
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+      <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     </div>
+
+     
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>Introduccion a la programacion orientada a objetos</h2>
+
+      </div>
+
+      <div data-role="content" align="center">
+
+       <div>
+
+       <p>La programacion orientada a objetos es un paradigma o metodologia de programacion 
+          donde se segmenta el codigo de un programa en diferentes
+         archivos, los cuales son reunidos en un archivo principal 
+         es decir, es una forma diferente de organizar el codigo de un 
+         programa con el fin de mejorar su funcionamiento e 
+         incrementar la seguridad.
+         Su funcionamiento es similar al de un rompe cabezas donde cada una de las piezas es un archivo  
+         y el tablero donde se colocan las piezas es el archivo principal.
+         <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3354','','imagenes/26.png',1)"><img src="imagenes/VisualBasic.jpg" width="60%" height="60%" id="Image3354"></a> </center>  <br>El termino de programacion orientada a objetos indica mas una forma de diseño y una metadologia de desarrollo de software que un lenguaje de programacion<br>La POO intenta ser un mejor sistema para el desarrollo de aplicaciones como toda tecnica de programacion.Con la Poo tenemos que aprender a pensar las cosas de una manera distinta, para escribir nuestros programas en terminos de objetos,propiedades,metodos, etc.</p>
+       
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/seutilizaraelsoftwarevisualstudio2010ultimate.png" alt="Se Utilizara El Software Visual Studio 2010 Ultimate" title="Se Utilizara El Software Visual Studio 2010 Ultimate" id="wows3_0"/></li>
+		<li><img src="data3/images/codificando.jpg" alt="Para Codificar" title="Para Codificar" id="wows3_1"/></li>
+		<li><img src="data3/images/objetos.jpg" alt="objetos" title="objetos" id="wows3_2"/></li>
+		<li><img src="data3/images/como.png" alt="como" title="como" id="wows3_3"/></li>
+		<li><img src="data3/images/botones.jpg" alt="botones" title="botones" id="wows3_4"/></li>
+		<li><img src="data3/images/textbox.jpg" alt="textbox" title="textbox" id="wows3_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data3/images/formularios.jpg" alt="wow slider" title="la base son los formularios" id="wows3_6"/></a></li>
+		<li><img src="data3/images/etc.........jpg" alt="etc........" title="etc........" id="wows3_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Se Utilizara El Software Visual Studio 2010 Ultimate"><span><img src="data3/tooltips/seutilizaraelsoftwarevisualstudio2010ultimate.png" alt="Se Utilizara El Software Visual Studio 2010 Ultimate"/>1</span></a>
+		<a href="#" title="Para Codificar"><span><img src="data3/tooltips/codificando.jpg" alt="Para Codificar"/>2</span></a>
+		<a href="#" title="objetos"><span><img src="data3/tooltips/objetos.jpg" alt="objetos"/>3</span></a>
+		<a href="#" title="como"><span><img src="data3/tooltips/como.png" alt="como"/>4</span></a>
+		<a href="#" title="botones"><span><img src="data3/tooltips/botones.jpg" alt="botones"/>5</span></a>
+		<a href="#" title="textbox"><span><img src="data3/tooltips/textbox.jpg" alt="textbox"/>6</span></a>
+		<a href="#" title="la base son los formularios"><span><img src="data3/tooltips/formularios.jpg" alt="la base son los formularios"/>7</span></a>
+		<a href="#" title="etc........"><span><img src="data3/tooltips/etc.........jpg" alt="etc........"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->   
+      
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+           
+          
+         
+         
+         
+         
+         
+         
+
+        
+
+        <div data-role="main" class="ui-content" align="center">
+
+ <div style="width:90%">
+
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+
+   <li class="ui-first-child ui-last-child">
+
+    <a href="https://www.youtube.com/watch?v=QZIsmJbv1sA" data-role="button" id="beep">
+
+     <h2>Ver Video</h2>
+
+    </a>
+
+   </li>
+
+
+
+  </ul>
+
+ </div>
+
+</div>
+
+       </div>
+      
+        </div>
+
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+       <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     </div>
+
+     
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>Codificacion</h2>
+
+      </div>
+
+       <div data-role="content" align="center">
+
+
+       <div>
+        <div data-role="main" class="ui-content">
+
+      <div data-role="collapsible" data-content-theme="false">
+
+        <h1>Proceso</h1>
+
+        <div>
+
+         <p><h2>Codificación de archivos (Visual Basic)</h2>
+Visual Studio 2013 Otras versiones 
+Las codificaciones de archivos, también conocidas como codificaciones de caracteres, especifican cómo se representan los caracteres cuando se procesa texto. Una codificación puede ser preferible sobre otra por lo que se refiere a los caracteres del lenguaje que puede o no controlar, aunque normalmente se prefiere Unicode.
+
+Cuando se leen o escriben archivos, la correspondencia incorrecta de las codificaciones de archivo puede producir excepciones o resultados incorrectos.
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image96','','imagenes/26.png',1)"><img src="imagenes/Ejemp1.jpg" width="60%" height="60%" id="Image96"></a>
+<h2>Tipos de codificaciones</h2>
+Unicode es la codificación preferida al trabajar con archivos. Unicode es un estándar mundial de codificación de caracteres que utiliza valores de código de 16 bits para representar todos los caracteres que se utilizan en la informática moderna, e incluye símbolos técnicos y caracteres especiales que se utilizan en publicaciones.
+
+Los estándares de codificación de caracteres anteriores constaban de juegos de caracteres tradicionales, como el juego de caracteres ANSI de Windows que utiliza valores de código de 8 bits, o combinaciones de valores de 8 bits, para representar los caracteres que se utilizan en un idioma o región geográfica específicos.
+
+Clase Encoding
+La clase Encoding representa una codificación de caracteres. En esta tabla se muestra el tipo de codificaciones disponibles y se describe cada uno.
+Ejemplos de codificacion a objetos:<br> 
+<b>Ejemplo1:<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image90','','imagenes/26.png',1)"><img src="imagenes/ejem2.jpg" width="60%" height="60%" id="Image90"></a>
+<center>Ejemplo2:<br><br></center>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image91','','imagenes/26.png',1)"><img src="imagenes/guar.jpg" width="60%" height="60%" id="Image91"></a>
+<center>Ejemplo3:<br></center>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image92','','imagenes/26.png',1)"><img src="imagenes/Buscar.jpg" width="60%" height="60%" id="Image92"></a>
+<center>Ejemplo4:<br></center></b>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image93','','imagenes/26.png',1)"><img src="imagenes/img-3.jpg" width="60%" height="60%" id="Image93"></a>
+</p>
+
+          <br>
+
+        </div>
+
+        <div>
+
+       </div>
+
+        
+<div data-role="main" class="ui-content" align="center">
+
+  <div style="width:90%">
+
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+
+   <li class="ui-first-child ui-last-child">
+
+    <a href="https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=236:ejercicios-resueltos-en-visual-basic-con-forms-labels-textbox-y-buttons-command-ejemplos-cu00322a&catid=37&Itemid=61" data-role="button" id="beep">
+
+     <h2>Visitar Pagina</h2>
+
+    </a>
+
+   </li>
+
+
+
+  </ul>
+
+ </div>
+
+</div>
+
+
+
+       </div>
+
+      </div>
+       
+       
+       
+       
+       
+       
+       
+       
+
+
+       </div>
+
+      </div>
+
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+     <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     </div>
+
+  
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>Manuales</h2>
+
+      </div>
+
+       <div data-role="content" align="center">
+        <li class="ui-first-child ui-last-child">
+
+        <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+
+         <h2>La creacion del sistema de informacion</h2>
+
+         <p></p>
+
+        </a>
+
+       </li>
+      
+       <div>
+<h2>TECNICO</h2>
+<P><B>Concepto</B>
+<B>Un manual técnico es aquel que va dirigido a un público con conocimientos técnicos sobre algún área.
+La documentación de proyectos es importante para identificar mas fácilmente los aspectos y características que forman parte de un proyecto. Una adecuada documentación le proporciona identidad y "personalidad" a un proyecto, de manera que los usuarios irresponsables del mismo podrán reconocer mas fácilmente las ventajas y desventajas, características y funcionalidades, funciones y ventajas, así como costos y beneficios que impliquen el desarrollo del proyecto
+
+
+<H2>Estructura del documento MANUAL TÉCNICO</H2>
+1. Índice<BR>
+Relación de los capítulos y páginas correspondientes que forman parte del documento<BR>
+2. Introducción.<BR>
+Se debe presentar una breve descripción del sistema desarrollado, que contemple el ámbito abarcado, cual es su función principal y un detalle de las<BR> funciones macros o partes que lo componen. Puede incluir un mensaje de la máxima autoridad de las áreas comprendidas en el manual.<BR>
+2.1. Objetivo general del sistema<BR>
+Se debe de describir el objetivo general del sistema.<BR>
+2.2. Objetivos específicos<BR>
+Se deben describir brevemente los objetivos específicos que se cumplieron con el desarrollo del sistema.<BR>
+3. Contenido técnico<BR>
+3.1. Definición de reglas del negocio implementadas en el sistema desarrollado.<BR>
+3.2. Diagramas de flujo de datos, junto con su respectivo diccionario de datos.<BR>
+3.3. Controles de auditoria implementados en el sistema.<BR>
+3.4. Descripción de campos requeridos por pantalla con presentación de pantallas.<BR>
+3.5. Diagrama de navegación del sistema.<BR>
+3.6. Requerimientos de interfase con otros sistemas.<BR>
+3.7. Modelo lógico de datos, diagrama entidad-relación.<BR>
+3.8. Modelo de datos físico, junto con su respectivo diccionario de datos.<BR>
+3.9. Matriz de procesos versus organización.<BR>
+3.10. Matriz de programas versus entidades.<BR>
+3.11. Plataforma de usuario.<BR> Aquí se describen los requerimientos mínimos que se deben tener tanto de hardware como de software para que el sistema se pueda instalar y ejecutar correctamente (en caso de que se considere necesario).<BR>
+3.12. Áreas de aplicación y/o alcance de los procedimientos. Esfera de acción que cubren los procedimientos<BR>
+4. Responsables.<BR>
+Para iniciar los trabajos que conducen a la integración de un manual, es indispensable prever que no queda diluida la responsabilidad de la conducción de<BR> las acciones en diversas personas, sino que debe designarse a un coordinador, auxiliado por un equipo técnico, al que se le debe encomendar la<BR> conducción del proyecto en sus fases de diseño, implantación y actualización. De esta manera se logra homogeneidad en el contenido y presentación de la<BR> información.<BR> Por lo que respecta a las características del equipo técnico, es conveniente que sea personal con un buen manejo de las relaciones humanas y que conozca a la organización en lo que concierne a sus objetivos, estructura, funciones y personal. Para este tipo de trabajo, una organización puede nombrar a la persona que tenga los conocimientos y la experiencia necesarios para llevarlo a cabo. Por la naturaleza de sus funciones puede encargarlo al titular de el área específica. Asimismo, puede contratar los servicios de consultores externos.<BR>
+4.1. Mapa de navegación. muestra de forma gráfica la interconexión entre cada una de las pantallas del sistema, lo que serviría para saber como llegar a determinada parte de la aplicación.<BR> En este se muestran los menús, submenús y pantallas a las que nos lleva cada uno de ellos
+<BR>4.2. Descripción gráfica del mapa de navegación.<BR> En el anterior aparece de forma de diagrama de flujo y en esta sección deberá aparecer ya con las respectivas pantallas.<BR>
+4.3. Describe paso a paso los procesos, así como pantallas, botones, cuadros de texto, etc.<BR>, pero también se muestra el código de cada rutina, pantalla, botón, etc. <BR>es decir, se muestra lo que hay detrás de la interfaz del usuario</B> 
+<CENTER><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image95','','imagenes/MANUAL DE TECNICO.jpg',1)"><img src="imagenes/digitalizacion.jpg" width="60%" height="60%" id="Image95"></a></CENTER>
+<H2>Manual De Usuario</H2>
+<B>Concepto</B>
+Un manual es una publicación que incluye los aspectos fundamentales de una materia.<br> Se trata de una guía que ayuda a entender el funcionamiento de algo, o bien que educa a sus lectores acerca de un tema de forma ordenada y concisa. <br>Un usuario es, por otra parte, la persona que usa ordinariamente algo o que es destinataria de un producto o de un servicio.<br>
+<b>Usos</b>
+Dada su complejidad, todos los productos electrónicos o informáticos suelen contar con su propio manual de usuario.<br> Otros productos más simples (como una pelota o una mesa), no requieren de manual para que el usuario sepa cómo utilizarlos.<br>
+
+<b>Estructura</b>
+Una estructura frecuente de los manuales de usuario incluye una introducción al producto en cuestión, un índice con los contenidos del manual, la guía en<br> sí misma, una sección de problemas frecuentes y su forma de solucionarlos, los datos de contacto y un glosario.<br>
+
+Los manuales de usuarios suelen estar escritos en diversos idiomas y contar tanto con textos como con imágenes. De esta forma se facilita la comprensión de los conceptos. Los diagramas y esquemas también son habituales.<br> 
+<img src="imagenes/v4-728px-Create-a-User-Manual-Step-9.jpg" width="60%" height="60%"> <b>Si gusta ver un ejemplo de un manual de usuario visita el link:</b><a href="https://es.slideshare.net/aLeXiToStHeBeSt/manual-del-usuario-word" target="_self">https://es.slideshare.net/aLeXiToStHeBeSt/manual-del-usuario-word</a></P>
+        
+
+
+     </div>
+
+      </div>
+
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+     <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     </div>    
+
+  
+
+ <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>Manejo del software visual basic 2010</h2>
+
+      </div>
+
+       <div data-role="content" align="center">
+
+       <div>
+          <div data-role="main" class="ui-content">
+
+      <div data-role="collapsible" data-content-theme="false">
+
+        <h1>Instrucciones</h1>
+
+        <div>
+
+         <p>Conducta de entrada:
+
+Debe tener instalada en su máquina la herramienta Visual Basic 2010 Express<img src="imagenes/Vi.png" width="60%" height="60%"> 
+<h2>Ejercicio Nº 1</h2>
+Pasar el contenido de la caja de texto a la etiqueta<br><br>
+<center><img src="imagenes/form.png" width="60%" height="60%"></center>
+<h2>Pasos:</h2>
+
+<b>1. Abrir nuevo proyecto de Aplicaación de Windows Form</b><br>
+
+<b>2. Arrastrar al área de diseño:<br>
+        Un Button<br>
+        Un TextBox<br>
+        Un Label</b><br>
+        
+<b>3. Hacer doble click sobre el Button<br>
+
+4. Visualizar el código (si previamente no ha sido presentado) pulsando F7
+     ó Ver/Código</b><br>
+     <img src="imagenes/20.png" width="60%" height="60%"><BR>
+     
+<B>5. Escribir el código faltante</B><BR>
+<img src="imagenes/25.png" width="60%" height="60%"><BR>
+<B> Public Class Form1<BR><BR>
+
+       Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As _<BR>
+     System.EventArgs) Handles  Button1.Click<BR>
+
+     ' Comentario: Usar _ (guión bajo) para continuar la sintaxis en <BR>
+     ' la siguiente línea<BR><BR>
+
+        Label1.Text = TextBox1.Text<BR>
+
+     End Sub<BR> 
+ End Class</B><BR>
+ <B>6. Ejecutar la depuración (Depurar/iniciar depuración ó pulsando F5 ó
+   Click en el botón apuntado por  la flecha verde)</B><BR>
+   <img src="imagenes/descarga.png" width="60%" height="60%"><BR>
+   <B>7. Tipear "Hola y SUERTE" y click en Button 1
+
+!BINGO! si obtuvo este resultado...En hora buena</B><BR>
+<img src="imagenes/descarga (1).png" width="60%" height="60%">
+</p>
+
+          <br>
+
+        </div>
+
+        <div>
+
+        </div>
+        
+        
+<div data-role="main" class="ui-content" align="center">
+
+  <div style="width:90%">
+
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+
+   <li class="ui-first-child ui-last-child">
+
+    <a href="https://www.youtube.com/watch?v=RnoiKsyPoBI" data-role="button" id="beep">
+
+     <h2>Ver video</h2>
+
+    </a>
+
+   </li>
+
+
+
+  </ul>
+  <B>SI GUSTAS SABER MAS EJERCICIOS VISITA EL LINK:</B><A HREF="http://bolivarlojan.blogspot.com/p/parte-01-aprendiendo-visual-basic-2010.html" target="_self">http://bolivarlojan.blogspot.com/p/parte-01-aprendiendo-visual-basic-2010.html</A>
+
+ </div>
+
+</div>
+
+
+
+       </div>
+
+      </div>
+        
+ 
+
+
+ 
+
+
+
+       
+
+       </div>
+
+      </div>
+
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+       <CENTER> <img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+     <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     </div>
+
+    
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>Instrucciones basicas de SQL</h2>
+
+      </div>
+
+       <div data-role="content" align="center">
+
+       <div>
+       <CENTER><H2>DEFINICION</H2></CENTER>
+       <p>SQL es un lenguaje de computación para trabajar con conjuntos de datos y las relaciones entre ellos. Los programas de bases de datos relacionales, como Microsoft Office Access, usan SQL para trabajar con datos. A diferencia de muchos lenguajes de computación, SQL no es difícil de leer y entender, incluso para un usuario inexperto. Al igual que muchos lenguajes de computación, SQL es un estándar internacional reconocido por organismos de estándares como ISO y ANSI.
+
+SQL se usa para describir conjuntos de datos que pueden ayudarle a responder preguntas. Al usar SQL, debe usar la sintaxis correcta. La sintaxis es el conjunto de reglas mediante las que se combinan correctamente los elementos de un idioma. La sintaxis SQL se basa en la sintaxis del idioma inglés y usa muchos de los mismos elementos que la sintaxis de Visual Basic </p>
+       <CENTER><H2>Instrucciones SELECT</H2></CENTER>
+Para describir un conjunto de datos con SQL, se escribe una instrucción SELECT. Una instrucción SELECT contiene una descripción completa de un conjunto de datos que quiere obtener de una base de datos. Se incluye lo siguiente:<BR><BR>
+<LI>Qué tablas contienen los datos.</LI>
+<LI>Cómo se relacionan los datos de orígenes diferentes.</LI>
+<LI>Qué campos o cálculos proporcionarán los datos.</LI>
+<LI>Criterios que los datos deben cumplir para ser incluidos.</LI>
+<LI>Si se deben ordenar los datos y, en caso de ser así, cómo deben ordenarse.</LI>
+<H2>Comandos SQL Básicos</H2>
+           <CENTER><H2> Definiendo cómo es almacenada la información.</H2></CENTER>
+          <H2> CREATE DATABASE: </H2>se utiliza para crear una nueva base de datos vacía.<BR>
+          
+          <center><img src="imagenes/CREATE DATABASE.png" width="60%" height="60%"></center>
+           <H2>DROP DATABASE: </H2>se utiliza para eliminar completamente una base de datos existente.<BR>
+           <center><img src="imagenes/image6.png" width="60%" height="60%"></center>
+           <H2>CREATE TABLE:</H2> se utiliza para crear una nueva tabla, donde la información se almacena realmente.<BR>
+           <center><img src="imagenes/image1.jpg" width="60%" height="60%"></center>
+           <H2>ALTER TABLE:</H2> se utiliza para modificar una tabla ya existente.<BR>
+           <center><img src="imagenes/alter.png" width="60%" height="60%"></center>
+           <H2>DROP TABLE:</H2> se utiliza para eliminar por completo una tabla existente.<BR>
+           <center><img src="imagenes/CREATE DATABASE.png" width="60%" height="60%"></center>
+           <CENTER><H2>Manipulando los datos.</H2></CENTER>
+           <H2>SELECT:</H2> se utiliza cuando quieres leer (o seleccionar) tus datos.
+           <center><img src="imagenes/select.jpg" width="60%" height="60%"></center>
+           <H2>INSERT:</H2> se utiliza cuando quieres añadir (o insertar) nuevos datos.
+           <center><img src="imagenes/insert.png" width="60%" height="60%"></center>
+           <H2>UPDATE:</H2> se utiliza cuando quieres cambiar (o actualizar) datos existentes.
+           <center><img src="imagenes/u.jpg" width="60%" height="60%"></center>
+           <H2>DELETE: </H2>se utiliza cuando quieres eliminar (o borrar) datos existentes.
+           <center><img src="imagenes/d.jpg" width="60%" height="60%"></center>
+           <H2>REPLACE: </H2> se utiliza cuando quieres añadir o cambiar (o reemplazar) datos nuevos o ya existentes.
+           <center><img src="imagenes/replace.png" width="60%" height="60%"></center>
+           <H2>TRUNCATE: </H2>se utiliza cuando quieres vaciar (o borrar) todos los datos de la plantilla.
+           <center><img src="imagenes/CREATE DATABASE.png" width="60%" height="60%"></center>
+           <h2>Clausulas:</h2>
+
+
+
+
+<b>FROM</b>
+
+Muestra las tablas que contienen los campos de la cláusula SELECT.<br>
+<center><img src="imagenes/from.png" width="60%" height="60%"></center>
+
+
+
+<b>WHERE</b>
+
+Especifica los criterios de campo que cada registro debe cumplir para poder ser incluido en los resultados.<br>
+
+<center><img src="imagenes/where.png" width="60%" height="60%"></center>
+
+<b>ORDER BY</b>
+
+Especifica la forma de ordenar los resultados.<br>
+
+<center><img src="imagenes/O.gif" width="60%" height="60%"></center>
+
+<b>GROUP BY</b>
+
+En una instrucción SQL que contiene funciones de agregado, muestra los campos que no se resumen en la cláusula SELECT.
+
+Solo si están estos campos<br>
+<center><img src="imagenes/G.jpg" width="60%" height="60%"></center>
+
+<b>HAVING</b>
+
+En una instrucción SQL que contiene funciones de agregado, especifica las condiciones que se aplican a los campos que se resumen en la instrucción SELECT.<br>
+<center><img src="imagenes/H.jpg" width="60%" height="60%"></center>
+    
+    <b>Si requiees instruciones mas detalladas visita el link:</b><a href="https://www.youtube.com/watch?v=usB591MTYm8" target="_self">https://www.youtube.com/watch?v=usB591MTYm8</a>
+       </div>
+
+      </div>
+
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+     <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     
+     
+     
+       
+
+      
+
+        
+
+       
+
+     
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+     <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     </div>  
+ <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>Datos del desarrollador</h2>
+
+      </div>
+
+       <div data-role="content" align="center">
+
+       <div>
+       
+       <TABLE BORDER="3" bgcolor="red">
+        <TR>
+
+<TD><H2>NOMBRE DEL ALUMNO:</H2><TD><H2>PERFIL:</H2></TD></TR><TD><center><H2>"Christian Ariel Peregrina Garcia"</H2></center></TD>
+<TD><H2><center><img src="imagenes/yo.jpg" width="60%" height="60%"></center></H2></TD>
+
+
+  </TR>
+  <tr>
+  <TD><H2>GRUPO:</H2></TD><TD><H2>SEMESTRE:</H2></TD>
+  <tr><TD><center><H2>"H"</H2></center></TD>
+<TD><center><H2>"Cuarto"</H2></center></TD></tr>
+  </tr>
+  <tr>
+  <TD><H2>SUBMODULO:</H2></TD><TD><H2>NOMBRE DEL DOCENTE:</H2></TD>
+  <tr>
+  <TD><center><H2>"DAM"</H2></center></TD>
+<TD><center><H2>"Lic.Jose Antonio Gomez Hernandez"</H2></center></TD>
+  </tr>
+  </tr>
+  
+  
+       </TABLE>
+
+       
+       </div>
+
+      </div>
+
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <div>
+
+        <CENTER><img src="res/android/mdpi.png" width="46" height="46"></CENTER>
+
+       </div>
+
+     <h4>Proyecto Final,DSAWPOO</h4>
+
+      </div>
+
+     </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+
+       <h2>La creacion del sistema de informacion</h2>
+
+      </div>
+
+       <div data-role="content" align="center">
+
+       <div>
+        <div data-role="main" class="ui-content">
+
+      <div data-role="collapsible" data-content-theme="false">
+
+        <h1>proceso</h1>
+
+        <div>
+
+         <p><center><img src="imagenes/ProcesoZ.gif" width="60%" height="60%"></center> </p>
+         Si quieres saber mas informacion visita la pagina: 
+         <A href="http://senatecnologoentalento.blogspot.com/2014/04/" target="_self">http://senatecnologoentalento.blogspot.com/2014/04/</A>
+
+          <br>
+
+        </div>
+
+        <div>
+
+
+ </div>
+
+</div>
+
+</body>
+
+</html>
